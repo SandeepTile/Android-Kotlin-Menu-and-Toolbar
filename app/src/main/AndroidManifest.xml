@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity
+            android:theme="@style/myStyle"
             android:parentActivityName=".MainActivity"
             android:name=".ToolbarActivity"
             ></activity>
