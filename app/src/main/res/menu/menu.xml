@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="first year">FE</item>
-    <item android:title="Second year">SE</item>
-    <item android:title="Third year">TE</item>
-    <item android:title="Last year">BE</item>
+    <item
+        android:title="add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item android:title="first year"/>
+    <item android:title="Second year"/>
+    <item android:title="Third year"/>
+    <item android:title="Last year"/>
+
 </menu>
