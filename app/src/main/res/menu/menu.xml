@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="first year">FE</item>
+    <item android:title="Second year">SE</item>
+    <item android:title="Third year">TE</item>
+    <item android:title="Last year">BE</item>
+</menu>
