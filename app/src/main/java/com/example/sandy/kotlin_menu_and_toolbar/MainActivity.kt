@@ -1,5 +1,6 @@
 package com.example.sandy.kotlin_menu_and_toolbar
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -25,6 +26,12 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 
         Toast.makeText(this@MainActivity,item!!.title.toString(),Toast.LENGTH_LONG).show()
+
+        if (item.title=="add"){
+
+            var intent=Intent(this@MainActivity,ToolbarActivity::class.java)
+            startActivity(intent)
+        }
 
         return super.onOptionsItemSelected(item)
     }
